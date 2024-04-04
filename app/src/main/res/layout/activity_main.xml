@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backg1"
+    tools:context=".MainActivity">
+    android:background="@drawable/backg1">
+
+
+    <EditText
+        android:id="@+id/editTextUsername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="16dp"
+        android:drawableLeft="@drawable/baseline_person_24"
+        android:drawablePadding="10dp"
+        android:hint="Username"
+        android:inputType="text"
+        android:textSize="20dp"
+        android:textColor="@color/white"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/editTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:drawableLeft="@drawable/baseline_lock_24"
+        android:drawablePadding="10dp"
+        android:textColorHint="@color/black"
+        android:layout_below="@id/editTextUsername"
+        android:layout_margin="16dp"
+        android:inputType="textPassword"
+        android:textSize="20dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/buttonlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextPassword"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:text="login"/>
+
+    <EditText
+        android:id="@+id/edittextbelumpunyaakunbelumpunyaakun"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/buttonlogin"
+        android:layout_margin="30dp"
+        android:text="belum punya akun?"
+        android:textSize="20dp"
+        android:gravity="top"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignTop="@+id/edittextbelumpunyaakunbelumpunyaakun"
+        android:layout_marginRight="-90dp"
+        android:text="register!"
+        android:textSize="20dp"
+        android:gravity="top|center" />
+
+
+
+</RelativeLayout>
